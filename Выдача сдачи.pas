@@ -6,7 +6,7 @@ VAR
   hund,fifd,twend,tend,fivd,oned,changepeny:INTEGER;
 BEGIN
   WRITE('Введите полученную сумму: ');
-  READLN(AmountPrice);
+  READLN(AmountPrice);//тут считываем полученную сумму с клавиатуры
   WRITE('Введите сумму покупки: ');
   READLN(TotalPrice);
   Change := AmountPrice - TotalPrice;
